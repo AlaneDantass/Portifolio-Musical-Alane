@@ -137,9 +137,30 @@ article img:hover {
     transform: scale(1.4); /* Aumenta a escala da imagem em 10% */
 }
 
+.musicas{
+    font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins para todo o documento */
+    background-color: #c2d0f8; /* Cor de fundo do corpo da página */
+    margin: 0; /* Removendo margens padrão do corpo */
+    padding: 0; /* Removendo preenchimento padrão do corpo */
+}
+
+.musicas main{
+    max-width: 1000px; /* Largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centralizando o conteúdo na página */
+    padding: 20px; /* Adicionando preenchimento ao redor do conteúdo */
+    background-color: #fff; /* Cor de fundo do conteúdo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra ao conteúdo principal */
+    border-radius: 10px; /* Adicionando borda arredondada ao conteúdo principal */
+}
+
 .musicas h1{
-    padding:  0px 20px;
-    font-size: 25px;
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 32px; /* Tamanho da fonte para o título principal */
+    margin-bottom: 20px; /* Espaçamento inferior para o título principal */
+    color: #ffffff; /* Cor do texto para o título principal */
+    text-align: center; /* Centralizando o texto do título principal */
+       
 }
 .musicas h2{
     font-size: 18px;

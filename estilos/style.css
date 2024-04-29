@@ -1,0 +1,155 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    max-width: 1450px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #d0f6ffed;
+    color: #333;
+
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #000000;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center; /* Alinha o conteúdo à esquerda */
+    padding: 15px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+/* Estilo da imagem no cabeçalho */
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+
+/* Estilo do título no cabeçalho */
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilo dos links no cabeçalho */
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+header nav ul li{
+    margin-bottom: 10px;
+}
+
+header .alane-contato button{
+    color: #ffffff; 
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #00b7ff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header a:hover {
+    color: #72adff;
+}
+
+article{
+    padding: 20px;
+}
+/* Estilo dos títulos de seção */
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+} 
+
+h3{
+    color: #1296bb;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 13px 0px;
+}
+/* Estilo das seções de biografia */
+.bio {
+    font-size: 18px;
+}
+
+/* Estilo das seções de galeria de imagens */
+article img {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.5s; /* Adiciona uma transição suave de 0.3 segundos */
+}
+
+article ul li{
+    list-style-type: none;
+    display: flex; /* Permite centralizar horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do link */
+    justify-content: center;/* Centraliza o conteúdo horizontalmente */
+}
+article a{
+    color: #ffffff; 
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #000000;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none; /* Remove o sublinhado */
+    transition: transform 0.5s;;
+}
+
+article img:hover {
+    transform: scale(1.4); /* Aumenta a escala da imagem em 10% */
+}
+
+.musicas h1{
+    padding:  0px 20px;
+    font-size: 25px;
+}
+.musicas h2{
+    font-size: 18px;
+    text-align: center; /* Centraliza o texto */
+    color: #0987b8;
+}
+
+.video-container {
+    padding: 10px; /* Proporção do vídeo (9:16) */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

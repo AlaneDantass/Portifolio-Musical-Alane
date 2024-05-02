@@ -168,6 +168,12 @@ article img:hover {
     color: #0987b8;
 }
 
+.musicas h3 {
+    font-size: 14px;
+    text-align: center; /* Centraliza o texto */
+    color: #005e84;
+}
+
 .video-container {
     padding: 10px; /* Proporção do vídeo (9:16) */
     display: flex;

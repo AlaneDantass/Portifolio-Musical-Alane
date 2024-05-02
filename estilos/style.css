@@ -139,13 +139,13 @@ article img:hover {
 
 .musicas{
     font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins para todo o documento */
-    background-color: #c2d0f8; /* Cor de fundo do corpo da página */
+    background-color: #c8cfe1; /* Cor de fundo do corpo da página */
     margin: 0; /* Removendo margens padrão do corpo */
     padding: 0; /* Removendo preenchimento padrão do corpo */
 }
 
 .musicas main{
-    max-width: 1000px; /* Largura máxima do conteúdo principal */
+    max-width: 1100px; /* Largura máxima do conteúdo principal */
     margin: 0 auto; /* Centralizando o conteúdo na página */
     padding: 20px; /* Adicionando preenchimento ao redor do conteúdo */
     background-color: #fff; /* Cor de fundo do conteúdo principal */
@@ -168,15 +168,54 @@ article img:hover {
     color: #0987b8;
 }
 
-.musicas h3 {
-    font-size: 14px;
-    text-align: center; /* Centraliza o texto */
-    color: #005e84;
-}
-
 .video-container {
     padding: 10px; /* Proporção do vídeo (9:16) */
     display: flex;
-    text-align: center;
-    justify-content: center;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+}
+
+.video-container img {
+    width: 500px; /* Define a largura da imagem */
+    height: 300px; /* Define a altura da imagem */
+    border-radius: 10px;
+}
+
+.video-container h3 {
+    font-size: 12px;
+    text-align: center; /* Centraliza o texto */
+    color: #011882;
+    margin-top: 0px; /* Espaçamento entre a imagem e o texto */
+}
+
+.minha-historia{
+    background-color: #ffffff;
+    height: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #1e1e1e;
+    display: flex; /* Adiciona um display flex para alinhar os itens verticalmente */
+    justify-content: left; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.minha-historia img{
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    height: 100px
+}
+
+.minha-historia h2{
+    font-size: 15;
+    padding: 50px;
+    color: #000000;
+    align-items: center; /* Centraliza os itens verticalmente */
+    
+}
+
+.seta{
+    margin-top: 30px;
+    height: 40px;
 }
